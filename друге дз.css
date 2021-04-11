@@ -1,0 +1,88 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.header{
+	background-image: url(https://image.pushauction.com/0/0/15bfc40c-7524-4d7b-b33f-59ee0725ab2d/4a11127b-f839-42cb-868b-2e644a116b20.jpeg);
+	width: 100%;
+	height: 155px;
+	text-align: center;
+	color: white;
+	line-height: 70px;
+}
+.content{
+	background-color: purple;
+	width: 85%;
+   margin: 0;
+	height: 1550px;
+	text-align: center;
+	color: white;
+	line-height: 30px;
+	
+
+}
+.footer{
+	background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v462-n-130-textureidea_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=9465282a2b0a375f4f5b120d7bbad882);
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	color: white;
+	line-height: 70px
+}
+.header img{
+	width: 200px;
+	height: 150px;
+	float: left;
+	margin-left: 10px;
+}
+.post{
+	display: flex;
+}
+.box{
+	background-color: white;
+	color: black;
+	border: 5px solid black;
+	padding: 15px;
+	margin: 15px;
+	flex-grow: 1;
+}
+.box img{
+	max-width: 100%;
+}
+body{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZWp4p4W_aOFA1ksszaMuV-OJu85U6KFqWhcTPVvZ6afpGos8DqOngZFGZw9t-s7qwEM8&usqp=CAU);
+  background-size: 2500px 2000px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ }
+ .content img{
+ 	width:250px; 
+ 	height:250px;
+ 	border:inset; 
+
+ }
+ p{
+ 	size: 200px;
+ }
+  .menu{
+ 
+ 	background-color: #a6e82c;
+ 	color: white;
+ 	text-align:left;
+ 	border: inherit; 
+
+ 	border: dashed;
+ }
+ .menu ul{
+ 	list-style: none;
+ 	text-align: center;
+ }
+ .menu li{
+ 	display:inline-block;
+ 	padding:5px 10px;
+ 	margin: 10px 15px; 
+    text-align: center;
+ }
+ .menu li:hover{
+ 	background-color:black;
+ 	color: white

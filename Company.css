@@ -1,0 +1,95 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.header{
+	background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/95b1bb36-a90a-43f3-9473-e88a391308fd/d7s41te-a827b747-a9b2-4da0-8d36-465b1ac2e3c2.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvOTViMWJiMzYtYTkwYS00M2YzLTk0NzMtZTg4YTM5MTMwOGZkXC9kN3M0MXRlLWE4MjdiNzQ3LWE5YjItNGRhMC04ZDM2LTQ2NWIxYWMyZTNjMi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.41REwCpdmhBXjf1JsWEf2zCNQmN6AnfFgLgYb8OsCaQ);
+	width: 100%;
+	height: 155px;
+	text-align: center;
+	color: white;
+	line-height: 70px;
+	border: solid;
+}
+.content{
+	background-color: blue;
+	width: 85%;
+   margin: 0;
+	height: 900px;
+	text-align: center;
+	color: white;
+	line-height: 30px;
+	border: solid;
+}
+.footer{
+	background-image: url(https://www.targetcenter.com/assets/img/2016_MARVEL_EVENT_IMAGE_665X374-294563b902.jpg);
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	color: pink;
+	line-height: 300px;
+	border: solid;
+
+}
+.header img{
+	width: 200px;
+	height: 150px;
+	float: left;
+	margin-left: 10px;
+}
+.post{
+	display: flex;
+}
+.box{
+	background-color: white;
+	color: black;
+	border: 5px solid black;
+	padding: 15px;
+	margin: 15px;
+	flex-grow: 1;
+}
+.box img{
+	max-width: 100%;
+}
+body{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZWp4p4W_aOFA1ksszaMuV-OJu85U6KFqWhcTPVvZ6afpGos8DqOngZFGZw9t-s7qwEM8&usqp=CAU);
+  background-size: 2000px 2200px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ }
+ .content img{
+ 	width:250px; 
+ 	height:250px;
+ 	border:inset; 
+
+ }
+ p{
+ 	size: 200px;
+ }
+ 
+ .header img:{
+ 	width:100px; 
+ 	height:100px;
+ }
+ .menu{
+ 
+ 	background-color: #a6e82c;
+ 	color: white;
+ 	text-align:left;
+ 	border: inherit; 
+
+ 	border: dashed;
+ }
+ .menu ul{
+ 	list-style: none;
+ 	text-align: center;
+ }
+ .menu li{
+ 	display:inline-block;
+ 	padding:5px 10px;
+ 	margin: 10px 15px; 
+    text-align: center;
+ }
+ .menu li:hover{
+ 	background-color:black;
+ 	color: white

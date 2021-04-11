@@ -1,0 +1,99 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.header{
+	background-image: url(https://freehtmlthemes.ru/assets/images/articles/css-fon.jpg);
+	width: 100%;
+	height: 155px;
+	text-align: center;
+	color: white;
+	line-height: 70px;
+	border: solid;
+}
+.content{
+	background-color: #eb6449;
+	width: 85%;
+   margin: 0;
+	height: 900px;
+	text-align: center;
+	color: white;
+	line-height: 30px;
+	border: solid;
+}
+.footer{
+	background-image: url(https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg);
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	color: pink;
+	line-height: 300px;
+	border: solid;
+
+}
+.header img{
+	width: 200px;
+	height: 150px;
+	float: left;
+	margin-left: 10px;
+}
+.post{
+	display: flex;
+}
+.box{
+	background-color: white;
+	color: black;
+	border: 5px solid black;
+	padding: 15px;
+	margin: 15px;
+	flex-grow: 1;
+}
+.box img{
+	max-width: 100%;
+}
+body{
+	background-image: url(https://besthqwallpapers.com/Uploads/17-5-2020/132779/thumb2-3d-black-cubes-texture-black-cubes-background-3d-texture-creative-3d-background-black-3d-background.jpg);
+  background-size: 2000px 2200px;
+  background-repeat: no-repeat;
+ }
+ .content img{
+ 	width:250px; 
+ 	height:250px;
+ 	border:inset; 
+
+ }
+ p{
+ 	size: 200px;
+ }
+ 
+ .header img:{
+ 	width:100px; 
+ 	height:100px;
+ }
+ .menu{
+ 
+ 	background-color: #a6e82c;
+ 	color: white;
+ 	text-align:left;
+ 	border: inherit; 
+
+ 	border: dashed;
+ }
+ .menu ul{
+ 	list-style: none;
+ 	text-align: center;
+ }
+ .menu li{
+ 	display:inline-block;
+ 	padding:5px 10px;
+ 	margin: 10px 15px; 
+    text-align: center;
+ }
+ .menu li:hover{
+ 	background-color:black;
+ 	color: white
+ }
+ol{
+	text-align: center;
+	margin: 0px 50px;
+}
